@@ -6,7 +6,7 @@ A plugin how add the command /info to see the discord server and the site of the
 French 
 Un plugin qui vous premet d'ajouter la commade /info pour voir le lien du discord de votre serveur de sont ts et sont site (configurable) et la commande /discord pour avoir le lien de votre discord (Completemment configurable)
 
-Obgectives 
+Future Updates
 Add an ui : soon
 Add translations : soon 
 
