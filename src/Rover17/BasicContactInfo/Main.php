@@ -31,6 +31,7 @@ class Main extends PluginBase{
                 } else {
                     $sender->sendMessage("§4Please run this command in game");
                 }
+        }
             case "info":
                 if($sender instanceof Player){
                         $sender->sendMessage("§3==== §r§4Informations §r§3=====");
