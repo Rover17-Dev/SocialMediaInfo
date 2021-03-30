@@ -34,6 +34,7 @@ class Main extends PluginBase{
         
             case "info":
                 if($sender instanceof Player){
+                        $sender->sendMessage(" ");
                         $sender->sendMessage("§3==== §r§4Informations §r§3=====");
                         $sender->sendMessage($this->config["Ligne1"]);
                         $sender->sendMessage($this->config["Ligne2"]);
