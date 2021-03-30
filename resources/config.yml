@@ -1,8 +1,6 @@
 # BasicContactInfo 
 # This plugin is fully configurable
 
-#The message for the /discord command
-discord: "§3Our server discord : Your discord link"
 
 #Infos 
 #The messages for the /info commands
