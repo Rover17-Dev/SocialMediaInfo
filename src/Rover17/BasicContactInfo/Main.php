@@ -25,13 +25,6 @@ class Main extends PluginBase{
 
     public function onCommand(CommandSender $sender, Command $cmd,$label, array $args) : bool {
         switch($cmd->getName()) {
-            case "discord":
-                if($sender instanceof Player){
-                        $sender->sendMessage($this->config["discord"]);
-                } else {
-                    $sender->sendMessage("§4Please run this command in game");
-                }
-        
             case "info":
                 if($sender instanceof Player){
                         $sender->sendMessage(" ");
