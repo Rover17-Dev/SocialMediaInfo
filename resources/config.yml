@@ -1,5 +1,5 @@
-# BasicContactInfo
-# To have the french version please go at github
+# BasicContactInfo 
+# This plugin is fully configurable
 
 #The message for the /discord command
 discord: "§3Our server discord : Your discord link"
