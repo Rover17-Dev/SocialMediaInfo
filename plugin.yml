@@ -5,7 +5,5 @@ main: Rover17\BasicContactInfo\Main
 api: 3.18.0
 commands:
   info:
-    description: See servers contact links
-  discord:
-    description: See our discord link
+    description: See our servers social links
 ...
