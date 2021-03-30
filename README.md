@@ -1,5 +1,7 @@
 # Social Media Info plugin pmmp
 
+<a href="https://poggit.pmmp.io/p/SocialMediaInfo"><img src="https://poggit.pmmp.io/shield.state/SocialMediaInfo"></a>
+
 English
 A plugin how add the command /info to see the discord server , ts and the site of the server  (Fully configurable) 
 
