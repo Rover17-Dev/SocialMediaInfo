@@ -1,0 +1,15 @@
+# BasicContactInfo
+# To have the french version please go at github
+
+#The message for the /discord command
+discord: "§3Our server discord : Your discord link"
+
+#Infos 
+#The messages for the /info commands
+Ligne1: "§1 Our discord : "
+Ligne2: "§1 Our teamspeak :"
+Ligne3: "§41 Our site :"
+
+
+#Plugin by Rover17 
+#Updates will be realise soon
