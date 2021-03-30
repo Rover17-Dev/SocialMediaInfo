@@ -1,10 +1,10 @@
-# Contact Info plugin pmpp
+# Social Media Info plugin pmmp
 
 English
-A plugin how add the command /info to see the discord server and the site of the server (configurable) and the command /discord for see the discord link (Fully configurable) (French and english versions)
+A plugin how add the command /info to see the discord server , ts and the site of the server  (Fully configurable) 
 
 French 
-Un plugin qui vous premet d'ajouter la commade /info pour voir le lien du discord de votre serveur de sont ts et sont site (configurable) et la commande /discord pour avoir le lien de votre discord (Completemment configurable)
+Un plugin qui vous premet d'ajouter la commade /info pour voir le lien du discord de votre serveur de sont ts et sont site (Completemment configurable)
 
 Future Updates
 Add an ui : soon
