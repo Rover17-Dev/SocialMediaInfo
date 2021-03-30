@@ -1,7 +1,7 @@
 ---
 name: ContactInfo
 version: 1.0.0
-main: Rover17\ContactInfo\Main
+main: Rover17\BasicContactInfo\Main
 api: 3.18.0
 commands:
   info:
