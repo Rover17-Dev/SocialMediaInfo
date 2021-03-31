@@ -14,12 +14,9 @@ use pocketmine\event\Listener;
 class Main extends PluginBase{
     
 
-    public function onDisable(){
-        $this->getLogger()->info("Plugin disabled");
-    }
+
     
             public function onEnable(){
-        $this->getLogger()->info("Plugin Enabled");
         $this->config = $this->getConfig()->getAll();
             }
 
