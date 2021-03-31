@@ -5,5 +5,5 @@ main: Rover17\SocialMediaInfo\Main
 api: 3.18.0
 commands:
   info:
-    description: See our server social links
+    description: See our server socials links
 ...
