@@ -41,6 +41,7 @@ switch($cmd->getName()) {
                 } else {
                     $sender->sendMessage("§4Please run this command in game");
                 }
+                return true;
 
         
     }
