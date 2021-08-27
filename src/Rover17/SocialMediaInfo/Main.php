@@ -38,7 +38,7 @@ class Main extends PluginBase{
 
    public function onCommand(CommandSender $sender, Command $cmd,$label, array $args) : bool {
         switch($cmd->getName()) {
-            dcase "discord":
+            case "discord":
                 if($sender instanceof Player){
                         $sender->sendMessage($this->config["Discord"]);
                 } else {
