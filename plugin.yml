@@ -2,7 +2,7 @@
 name: SocialMediaInfo
 version: 1.0.0
 main: Rover17\SocialMediaInfo\Main
-api: 3.18.0
+api: 4.0.0
 commands:
   info:
     description: See our server socials links
