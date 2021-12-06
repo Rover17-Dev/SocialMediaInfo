@@ -7,8 +7,10 @@ use pocketmine\plugin\PluginBase;
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
 use pocketmine\item\Item;
-use pocketmine\Player;
+use pocketmine\player\Player;
 use pocketmine\event\Listener;
+use pocketmine\utils\Config;
+
 
 
 class Main extends PluginBase{
