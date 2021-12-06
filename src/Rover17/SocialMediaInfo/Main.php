@@ -19,7 +19,7 @@ class Main extends PluginBase{
 
     
     public function onEnable() : void{
-        $this->config = $this->getConfig()->getAll();
+     $this->saveResource("config.yml");
             }
 
     public function onCommand(CommandSender $sender, Command $cmd,$label, array $args) : bool {
@@ -27,7 +27,7 @@ class Main extends PluginBase{
             case "info":
                 if($sender instanceof Player){
                         $sender->sendMessage("§3==== §r§4Informations §r§3=====");
-                        $sender->sendMessage($this->config["Line1"]);
+                        $sender->sendMessage($this->getInstance()->config->get("Line1"));
                         $sender->sendMessage($this->config["Line2"]);
                         $sender->sendMessage($this->config["Line3"]);
                 } else {
