@@ -6,7 +6,16 @@ api: 4.0.0
 commands:
   info:
     description: See our server socials links
+    permission: info.cmd
 discord : 
     description: See our discord link
+    permission: discord.cmd
 
+permissions:
+  info.cmd:
+    description: Permission to use discord command
+    default: true
+  discord.cmd:
+    description: Permission to use info command
+    default: true
 ...
