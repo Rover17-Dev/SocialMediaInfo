@@ -16,7 +16,7 @@ class Main extends PluginBase{
 
 
     
-            public function onEnable(){
+    public function onEnable() : void{
         $this->config = $this->getConfig()->getAll();
             }
 
