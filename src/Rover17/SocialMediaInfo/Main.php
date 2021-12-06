@@ -29,8 +29,8 @@ class Main extends PluginBase{
                 if($sender instanceof Player){
                         $sender->sendMessage("§3==== §r§4Informations §r§3=====");
                         $sender->sendMessage($this->config->get("Line1"));
-                        $sender->sendMessage($this->config->get["Line2"]);
-                        $sender->sendMessage($this->config->get["Line3"]);
+                        $sender->sendMessage($this->config->get("Line2"));
+                        $sender->sendMessage($this->config->get("Line3"));
                 } else {
                     $sender->sendMessage("§4Please run this command in game");
                 }
