@@ -3,7 +3,7 @@ build-by-default: true
 branches:
 - main
 projects:
-  Contact-Info-Plugin-Pocketmine:
+  Social-Media-Info:
     path: ""
     icon: icon.png
 ...
