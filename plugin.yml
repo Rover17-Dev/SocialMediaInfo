@@ -7,7 +7,7 @@ commands:
   info:
     description: See our server socials links
     permission: info.cmd
-discord : 
+  discord : 
     description: See our discord link
     permission: discord.cmd
 
