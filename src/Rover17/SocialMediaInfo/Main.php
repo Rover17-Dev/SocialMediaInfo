@@ -32,17 +32,22 @@ class Main extends PluginBase{
                         $sender->sendMessage($this->config["Line1"]);
                         $sender->sendMessage($this->config["Line2"]);
                         $sender->sendMessage($this->config["Line3"]);
-
                 } else {
                     $sender->sendMessage("§4Please run this command in game");
                 }
+            				return true;
+			    break;
+            case "discord":
+                if($sender instanceof Player){
+                        $sender->sendMessage($this->config["Discord"]);
+
+                } else {
+                    $sender->sendMessage("§4Please run this command in game");
+                }                
         }
         return true;
         
       
     }
-
-
-    
 
     }
