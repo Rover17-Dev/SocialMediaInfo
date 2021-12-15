@@ -1,6 +1,10 @@
 # SocialMediaInfo
 # This plugin is fully configurable
-
+#  ___          _      _ __  __        _ _      ___       __     
+# / __| ___  __(_)__ _| |  \/  |___ __| (_)__ _|_ _|_ _  / _|___ 
+# \__ \/ _ \/ _| / _` | | |\/| / -_) _` | / _` || || ' \|  _/ _ \
+# |___/\___/\__|_\__,_|_|_|  |_\___\__,_|_\__,_|___|_||_|_| \___/
+#                                                                
 
 #Infos 
 #The messages for the /info commands
@@ -9,7 +13,7 @@ Line2: "§1 Our teamspeak :"
 Line3: "§1 Our site :"
 
 #Discord 
-Discord: "Our discord :"
+Discord: "Our discord : discord.gg/link"
 
 #Plugin by Rover17 
 #Updates will be realise soon
