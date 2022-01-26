@@ -39,8 +39,7 @@ class Main extends PluginBase{
 				    
 
                 if($sender instanceof Player){
-                        $sender->sendMessage($discord);
-			 $discord = $this->config["Discord"]
+                        $sender->sendMessage($this->config["Discord"]);
 
 
                 } else {
