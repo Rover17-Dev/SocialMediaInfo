@@ -12,7 +12,6 @@ use pocketmine\event\Listener;
 use pocketmine\utils\Config;
 
 class Main extends PluginBase{
-const $discord = $this->config["Discord"]
 
     
     function onEnable() : void{
@@ -38,6 +37,8 @@ const $discord = $this->config["Discord"]
             				return true;
             case "discord":
                 if($sender instanceof Player){
+			const $discord = $this->config["Discord"]
+
                         $sender->sendMessage($discord);
 
                 } else {
