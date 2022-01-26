@@ -24,7 +24,6 @@ class Main extends PluginBase{
 
 
     public function onCommand(CommandSender $sender, Command $cmd,$label, array $args) : bool {
-	     $discord = $this->config["Discord"]
         switch($cmd->getName()) {
             case "info":
                 if($sender instanceof Player){
@@ -37,6 +36,8 @@ class Main extends PluginBase{
                 }
             				return true;
             case "discord":
+				     $discord = $this->config["Discord"]
+
                 if($sender instanceof Player){
 
                         $sender->sendMessage($discord);
