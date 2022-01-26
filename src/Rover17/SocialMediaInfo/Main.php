@@ -21,10 +21,10 @@ class Main extends PluginBase{
 		$this->saveDefaultConfig();
 		$this->config = $this->getConfig()->getAll();
 		}
-			function $discord = $this->config["Discord"]
 
 
     public function onCommand(CommandSender $sender, Command $cmd,$label, array $args) : bool {
+	     function $discord = $this->config["Discord"]
         switch($cmd->getName()) {
             case "info":
                 if($sender instanceof Player){
