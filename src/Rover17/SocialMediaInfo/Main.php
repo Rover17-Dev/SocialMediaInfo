@@ -11,9 +11,9 @@ use pocketmine\player\Player;
 use pocketmine\event\Listener;
 use pocketmine\utils\Config;
 
-$discord = $this->config["Discord"]
 class Main extends PluginBase{
-    
+$discord = $this->config["Discord"]
+
     
     function onEnable() : void{
      $this->saveResource("config.yml");
