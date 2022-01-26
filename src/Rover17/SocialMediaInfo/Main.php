@@ -36,10 +36,10 @@ class Main extends PluginBase{
                 }
             				return true;
             case "discord":
-				     $discord = $this->config["Discord"]
+				    
 
                 if($sender instanceof Player){
-
+ $discord = $this->config["Discord"]
                         $sender->sendMessage($discord);
 
                 } else {
