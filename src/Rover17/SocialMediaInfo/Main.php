@@ -12,7 +12,7 @@ use pocketmine\event\Listener;
 use pocketmine\utils\Config;
 
 class Main extends PluginBase{
-$discord = $this->config["Discord"]
+const $discord = $this->config["Discord"]
 
     
     function onEnable() : void{
