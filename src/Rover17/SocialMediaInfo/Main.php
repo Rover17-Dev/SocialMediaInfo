@@ -11,7 +11,7 @@ use pocketmine\player\Player;
 use pocketmine\event\Listener;
 use pocketmine\utils\Config;
 
-
+$discord = $this->config["Discord"]
 class Main extends PluginBase{
     
     
@@ -38,7 +38,7 @@ class Main extends PluginBase{
             				return true;
             case "discord":
                 if($sender instanceof Player){
-                        $sender->sendMessage($this->config["Discord"]);
+                        $sender->sendMessage($discord);
 
                 } else {
                     $sender->sendMessage("§4Please run this command in game");
