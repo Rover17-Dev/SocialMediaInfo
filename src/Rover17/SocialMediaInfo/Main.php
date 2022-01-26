@@ -21,6 +21,7 @@ class Main extends PluginBase{
 		$this->saveDefaultConfig();
 		$this->config = $this->getConfig()->getAll();
 		}
+			function $discord = $this->config["Discord"]
 
 
     public function onCommand(CommandSender $sender, Command $cmd,$label, array $args) : bool {
@@ -37,7 +38,6 @@ class Main extends PluginBase{
             				return true;
             case "discord":
                 if($sender instanceof Player){
-			 $discord = $this->config["Discord"]
 
                         $sender->sendMessage($discord);
 
