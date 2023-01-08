@@ -14,7 +14,7 @@ use pocketmine\utils\Config;
 class Main extends PluginBase{
 
     
-    function onEnable() : void{
+    public function onEnable() : void{
      $this->saveResource("config.yml");
  //      Config = $config;
  		@mkdir($this->getDataFolder());
