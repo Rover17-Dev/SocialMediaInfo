@@ -23,7 +23,7 @@ class Main extends PluginBase{
 		}
 
 
-    public function onCommand(CommandSender $sender, Command $cmd,$label, array $args) : bool {
+    private function onCommand(CommandSender $sender, Command $cmd,$label, array $args) : bool {
         switch($cmd->getName()) {
             case "info":
                 if($sender instanceof Player){
