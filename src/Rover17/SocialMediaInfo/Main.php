@@ -13,23 +13,12 @@ use pocketmine\utils\Config;
 
 class Main extends PluginBase{
 	
-    public function onLoad() : void {
-        self::$instance = $this;
-    }
-
-    public function onEnable() : void {
-        $this->loadFiles();
-
-    }
-
-
-    public function loadFiles() : void {
- 	@mkdir($this->getDataFolder());
-	$this->saveDefaultConfig();
-	$this->config = $this->getConfig()->getAll();
-        $this->saveResource("config.yml");
-
-    }
+public function onEnable() : void{
+     $this->saveResource("config.yml");
+ 		@mkdir($this->getDataFolder());
+		$this->saveDefaultConfig();
+		$this->config = $this->getConfig()->getAll();
+		}
 
 
     public function onCommand(CommandSender $sender, Command $cmd,$label, array $args) : bool {
