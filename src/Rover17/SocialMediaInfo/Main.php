@@ -21,7 +21,7 @@ public function onEnable() : void{
 		}
 
 
-    private function onCommand(CommandSender $sender, Command $cmd,$label, array $args) : bool {
+    public function onCommand(CommandSender $sender, Command $cmd,$label, array $args) : bool {
         switch($cmd->getName()) {
             case "info":
                 if($sender instanceof Player){
