@@ -6,16 +6,16 @@ api: 5.0.0
 commands:
   info:
     description: See our server socials links
-    permission: info.cmd
+    permission: socialmediainfo.info.cmd
   discord : 
     description: See our discord link
-    permission: discord.cmd
+    permission: socialmediainfo.discord.cmd
 
 permissions:
-  info.cmd:
+  socialmediainfo.info.cmd:
     description: Permission to use discord command
     default: true
-  discord.cmd:
+  socialmediainfo.discord.cmd:
     description: Permission to use info command
     default: true
 ...
